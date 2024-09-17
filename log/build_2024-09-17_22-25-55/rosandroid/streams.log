@@ -1,0 +1,41 @@
+[4.393s] Invoking command in '/home/pi/rosandroid': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/rosandroid/build/rosandroid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/rosandroid build --build-base /home/pi/rosandroid/build/rosandroid/build install --record /home/pi/rosandroid/build/rosandroid/install.log --single-version-externally-managed install_data
+[5.606s] running egg_info
+[5.607s] creating build/rosandroid/rosandroid.egg-info
+[5.698s] writing build/rosandroid/rosandroid.egg-info/PKG-INFO
+[5.699s] writing dependency_links to build/rosandroid/rosandroid.egg-info/dependency_links.txt
+[5.700s] writing entry points to build/rosandroid/rosandroid.egg-info/entry_points.txt
+[5.701s] writing requirements to build/rosandroid/rosandroid.egg-info/requires.txt
+[5.701s] writing top-level names to build/rosandroid/rosandroid.egg-info/top_level.txt
+[5.702s] writing manifest file 'build/rosandroid/rosandroid.egg-info/SOURCES.txt'
+[5.917s] reading manifest file 'build/rosandroid/rosandroid.egg-info/SOURCES.txt'
+[5.920s] writing manifest file 'build/rosandroid/rosandroid.egg-info/SOURCES.txt'
+[5.920s] running build
+[5.921s] running build_py
+[5.922s] creating /home/pi/rosandroid/build/rosandroid/build
+[5.922s] creating /home/pi/rosandroid/build/rosandroid/build/lib
+[5.923s] creating /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid
+[5.924s] copying rosandroid/__init__.py -> /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid
+[5.924s] copying rosandroid/subcriber.py -> /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid
+[5.925s] copying rosandroid/publisher.py -> /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid
+[5.926s] running install
+[5.951s] running install_lib
+[6.041s] creating /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid
+[6.042s] copying /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid/__init__.py -> /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid
+[6.043s] copying /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid/subcriber.py -> /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid
+[6.043s] copying /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid/publisher.py -> /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid
+[6.046s] byte-compiling /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid/__init__.py to __init__.cpython-312.pyc
+[6.047s] byte-compiling /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid/subcriber.py to subcriber.cpython-312.pyc
+[6.049s] byte-compiling /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid/publisher.py to publisher.cpython-312.pyc
+[6.052s] running install_data
+[6.052s] creating /home/pi/rosandroid/install/rosandroid/share/ament_index
+[6.053s] creating /home/pi/rosandroid/install/rosandroid/share/ament_index/resource_index
+[6.054s] creating /home/pi/rosandroid/install/rosandroid/share/ament_index/resource_index/packages
+[6.054s] copying resource/rosandroid -> /home/pi/rosandroid/install/rosandroid/share/ament_index/resource_index/packages
+[6.056s] copying package.xml -> /home/pi/rosandroid/install/rosandroid/share/rosandroid
+[6.056s] running install_egg_info
+[6.170s] Copying build/rosandroid/rosandroid.egg-info to /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid-0.0.0-py3.12.egg-info
+[6.175s] running install_scripts
+[6.846s] Installing pub script to /home/pi/rosandroid/install/rosandroid/lib/rosandroid
+[6.847s] Installing sub script to /home/pi/rosandroid/install/rosandroid/lib/rosandroid
+[6.848s] writing list of installed files to '/home/pi/rosandroid/build/rosandroid/install.log'
+[7.003s] Invoked command in '/home/pi/rosandroid' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/rosandroid/build/rosandroid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/rosandroid build --build-base /home/pi/rosandroid/build/rosandroid/build install --record /home/pi/rosandroid/build/rosandroid/install.log --single-version-externally-managed install_data

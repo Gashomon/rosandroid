@@ -1,0 +1,3 @@
+[console_scripts]
+pub = rosandroid.publisher:main
+sub = rosandoird.subscriber:main
