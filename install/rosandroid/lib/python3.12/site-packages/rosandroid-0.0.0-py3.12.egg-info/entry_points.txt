@@ -1,4 +1,0 @@
-[console_scripts]
-pub = rosandroid.publisher:main
-serv = rosandroid.android_server:main
-sub = rosandoird.subscriber:main
