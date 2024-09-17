@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'pub = rosandroid.publisher:main',
-            'sub = rosandoird.subscriber:main'
+            'sub = rosandoird.subscriber:main',
+            'serv = rosandroid.android_server:main'
         ],
     },
 )

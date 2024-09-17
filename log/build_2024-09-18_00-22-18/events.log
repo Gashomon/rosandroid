@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (rosandroid) JobQueued: {'identifier': 'rosandroid', 'dependencies': OrderedDict()}
+[0.002711] (rosandroid) JobStarted: {'identifier': 'rosandroid'}
+[0.099138] (-) TimerEvent: {}
+[0.199773] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.401088] (-) TimerEvent: {}
+[0.501730] (-) TimerEvent: {}
+[0.602402] (-) TimerEvent: {}
+[0.702966] (-) TimerEvent: {}
+[0.803604] (-) TimerEvent: {}
+[0.904217] (-) TimerEvent: {}
+[1.004953] (-) TimerEvent: {}
+[1.106228] (-) TimerEvent: {}
+[1.207991] (-) TimerEvent: {}
+[1.308613] (-) TimerEvent: {}
+[1.409290] (-) TimerEvent: {}
+[1.510078] (-) TimerEvent: {}
+[1.610724] (-) TimerEvent: {}
+[1.711281] (-) TimerEvent: {}
+[1.811852] (-) TimerEvent: {}
+[1.912483] (-) TimerEvent: {}
+[2.013074] (-) TimerEvent: {}
+[2.113678] (-) TimerEvent: {}
+[2.214279] (-) TimerEvent: {}
+[2.314881] (-) TimerEvent: {}
+[2.416397] (-) TimerEvent: {}
+[2.520339] (-) TimerEvent: {}
+[2.621309] (-) TimerEvent: {}
+[2.723260] (-) TimerEvent: {}
+[2.823837] (-) TimerEvent: {}
+[2.924490] (-) TimerEvent: {}
+[3.025106] (-) TimerEvent: {}
+[3.125761] (-) TimerEvent: {}
+[3.226386] (-) TimerEvent: {}
+[3.329311] (-) TimerEvent: {}
+[3.432346] (-) TimerEvent: {}
+[3.535474] (-) TimerEvent: {}
+[3.636756] (-) TimerEvent: {}
+[3.737376] (-) TimerEvent: {}
+[3.837953] (-) TimerEvent: {}
+[3.938569] (-) TimerEvent: {}
+[4.039217] (-) TimerEvent: {}
+[4.139783] (-) TimerEvent: {}
+[4.240612] (-) TimerEvent: {}
+[4.334206] (rosandroid) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/rosandroid', 'build', '--build-base', '/home/pi/rosandroid/build/rosandroid/build', 'install', '--record', '/home/pi/rosandroid/build/rosandroid/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/rosandroid/src', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.137.1 60436 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/bot/install/applicate_bot_msgs/lib:/home/pi/lidar-ros2/install/ldlidar_component/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.88.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-156775cb-7799-46b2-8113-d700be49724d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/pi/rosandroid/install:/home/pi/bot/install:/home/pi/lidar-ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-701690da89.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/rosandroid/install/rosandroid:/home/pi/bot/install/implement_bot:/home/pi/bot/install/applicate_bot_msgs:/home/pi/bot/install/applicate_bot:/home/pi/lidar-ros2/install/ldlidar:/home/pi/lidar-ros2/install/ldlidar_node:/home/pi/lidar-ros2/install/ldlidar_component:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/rosandroid/build/rosandroid', 'SSH_CONNECTION': '192.168.137.1 60436 192.168.137.94 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/rosandroid/build/rosandroid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:/home/pi/bot/install/applicate_bot_msgs/lib/python3.12/site-packages:/home/pi/bot/build/applicate_bot:/home/pi/bot/install/applicate_bot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/bot/install/implement_bot:/home/pi/bot/install/applicate_bot_msgs:/home/pi/lidar-ros2/install/ldlidar:/home/pi/lidar-ros2/install/ldlidar_node:/home/pi/lidar-ros2/install/ldlidar_component:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.348101] (-) TimerEvent: {}
+[4.448720] (-) TimerEvent: {}
+[4.549406] (-) TimerEvent: {}
+[4.651510] (-) TimerEvent: {}
+[4.752289] (-) TimerEvent: {}
+[4.852884] (-) TimerEvent: {}
+[4.953498] (-) TimerEvent: {}
+[5.054087] (-) TimerEvent: {}
+[5.154712] (-) TimerEvent: {}
+[5.255284] (-) TimerEvent: {}
+[5.355866] (-) TimerEvent: {}
+[5.456499] (-) TimerEvent: {}
+[5.557081] (-) TimerEvent: {}
+[5.582705] (rosandroid) StdoutLine: {'line': b'running egg_info\n'}
+[5.657258] (-) TimerEvent: {}
+[5.670239] (rosandroid) StdoutLine: {'line': b'writing ../build/rosandroid/rosandroid.egg-info/PKG-INFO\n'}
+[5.671341] (rosandroid) StdoutLine: {'line': b'writing dependency_links to ../build/rosandroid/rosandroid.egg-info/dependency_links.txt\n'}
+[5.672676] (rosandroid) StdoutLine: {'line': b'writing entry points to ../build/rosandroid/rosandroid.egg-info/entry_points.txt\n'}
+[5.673831] (rosandroid) StdoutLine: {'line': b'writing requirements to ../build/rosandroid/rosandroid.egg-info/requires.txt\n'}
+[5.674541] (rosandroid) StdoutLine: {'line': b'writing top-level names to ../build/rosandroid/rosandroid.egg-info/top_level.txt\n'}
+[5.757420] (-) TimerEvent: {}
+[5.857326] (rosandroid) StdoutLine: {'line': b"reading manifest file '../build/rosandroid/rosandroid.egg-info/SOURCES.txt'\n"}
+[5.857908] (-) TimerEvent: {}
+[5.860848] (rosandroid) StdoutLine: {'line': b"writing manifest file '../build/rosandroid/rosandroid.egg-info/SOURCES.txt'\n"}
+[5.861645] (rosandroid) StdoutLine: {'line': b'running build\n'}
+[5.862121] (rosandroid) StdoutLine: {'line': b'running build_py\n'}
+[5.862760] (rosandroid) StdoutLine: {'line': b'copying rosandroid/android_server.py -> /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid\n'}
+[5.864873] (rosandroid) StdoutLine: {'line': b'running install\n'}
+[5.889636] (rosandroid) StdoutLine: {'line': b'running install_lib\n'}
+[5.958068] (-) TimerEvent: {}
+[5.979848] (rosandroid) StdoutLine: {'line': b'copying /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid/android_server.py -> /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid\n'}
+[5.983458] (rosandroid) StdoutLine: {'line': b'byte-compiling /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid/android_server.py to android_server.cpython-312.pyc\n'}
+[5.988564] (rosandroid) StdoutLine: {'line': b'running install_data\n'}
+[5.989295] (rosandroid) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.058248] (-) TimerEvent: {}
+[6.086051] (rosandroid) StdoutLine: {'line': b"removing '/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.087905] (rosandroid) StdoutLine: {'line': b'Copying ../build/rosandroid/rosandroid.egg-info to /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid-0.0.0-py3.12.egg-info\n'}
+[6.093565] (rosandroid) StdoutLine: {'line': b'running install_scripts\n'}
+[6.158413] (-) TimerEvent: {}
+[6.258994] (-) TimerEvent: {}
+[6.359623] (-) TimerEvent: {}
+[6.460207] (-) TimerEvent: {}
+[6.560818] (-) TimerEvent: {}
+[6.661640] (-) TimerEvent: {}
+[6.758019] (rosandroid) StdoutLine: {'line': b'Installing pub script to /home/pi/rosandroid/install/rosandroid/lib/rosandroid\n'}
+[6.758969] (rosandroid) StdoutLine: {'line': b'Installing serv script to /home/pi/rosandroid/install/rosandroid/lib/rosandroid\n'}
+[6.760017] (rosandroid) StdoutLine: {'line': b'Installing sub script to /home/pi/rosandroid/install/rosandroid/lib/rosandroid\n'}
+[6.761703] (rosandroid) StdoutLine: {'line': b"writing list of installed files to '/home/pi/rosandroid/build/rosandroid/install.log'\n"}
+[6.762287] (-) TimerEvent: {}
+[6.863329] (-) TimerEvent: {}
+[6.903100] (rosandroid) CommandEnded: {'returncode': 0}
+[6.944838] (rosandroid) JobEnded: {'identifier': 'rosandroid', 'rc': 0}
+[6.947689] (-) EventReactorShutdown: {}

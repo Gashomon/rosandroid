@@ -1,0 +1,19 @@
+[3.867s] Invoking command in '/home/pi/rosandroid/src': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/rosandroid/build/rosandroid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rosandroid build --build-base /home/pi/rosandroid/build/rosandroid/build install --record /home/pi/rosandroid/build/rosandroid/install.log --single-version-externally-managed install_data
+[5.191s] running egg_info
+[5.280s] writing ../build/rosandroid/rosandroid.egg-info/PKG-INFO
+[5.281s] writing dependency_links to ../build/rosandroid/rosandroid.egg-info/dependency_links.txt
+[5.282s] writing entry points to ../build/rosandroid/rosandroid.egg-info/entry_points.txt
+[5.283s] writing requirements to ../build/rosandroid/rosandroid.egg-info/requires.txt
+[5.284s] writing top-level names to ../build/rosandroid/rosandroid.egg-info/top_level.txt
+[5.481s] reading manifest file '../build/rosandroid/rosandroid.egg-info/SOURCES.txt'
+[5.485s] writing manifest file '../build/rosandroid/rosandroid.egg-info/SOURCES.txt'
+[5.487s] running build
+[5.487s] running build_py
+[5.490s] copying rosandroid/android_server.py -> /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid
+[5.490s] running install
+[5.516s] running install_lib
+[5.605s] copying /home/pi/rosandroid/build/rosandroid/build/lib/rosandroid/android_server.py -> /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid
+[5.608s] byte-compiling /home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages/rosandroid/android_server.py to android_server.cpython-312.pyc
+[5.613s] running install_data
+[5.615s] error: can't copy 'resource/rosandroid': doesn't exist or not a regular file
+[5.723s] Invoked command in '/home/pi/rosandroid/src' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/rosandroid/build/rosandroid/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/rosandroid/install/rosandroid/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rosandroid build --build-base /home/pi/rosandroid/build/rosandroid/build install --record /home/pi/rosandroid/build/rosandroid/install.log --single-version-externally-managed install_data
